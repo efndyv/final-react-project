@@ -1,0 +1,21 @@
+{
+  "items": [
+    { "id": 1, "name": "navbar.men", "link": "/men" },
+    { "id": 2, "name": "navbar.women", "link": "/women" },
+    { "id": 3, "name": "navbar.socks", "link": "/socks" },
+    { "id": 4, "name": "navbar.arrivals", "link": "/arrivals" }
+ 
+      
+  ],
+  "itemsOne": [
+    { "id": 6, "name": "navbar.sustainability", "link": "/sustainability" },
+    { "id": 7, "name": "navbar.rerun", "link": "/rerun" },
+    { "id": 8, "name": "navbar.stores", "link": "/stores" }
+  ],
+  "itemsTwo": [
+    { "id": 9, "name": "bottombar.menShoes", "link": "/arrivals" },
+    { "id": 10, "name": "bottombar.womenShoes", "link": "/arrivals" },
+    { "id": 11, "name": "bottombar.newArrivals", "link": "/arrivals" }
+  ]
+}
+

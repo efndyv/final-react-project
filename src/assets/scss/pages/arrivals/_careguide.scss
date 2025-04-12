@@ -1,0 +1,75 @@
+.care-container {
+  width: 100%;
+  max-width: 94%;
+  margin: 50px auto;
+  padding: 20px;
+}
+.care-container {
+  width: 100%;
+  max-width: 94%;
+  margin: 50px auto;
+  padding: 15px 0;
+  border-top: 1px solid black;
+}
+
+.care-item {
+  border-bottom: 1px solid black;
+  padding: 15px 0;
+}
+
+.care-question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.care-question {
+  letter-spacing: 0.5px;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+.care-icon {
+  transition: transform 0.3s ease;
+}
+
+.care-icon.rotate {
+  transform: rotate(180deg);
+}
+
+.care-answer {
+  letter-spacing: 0.5px;
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  color: black;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 500;
+}
+.care-answer h2 {
+  font-size: 19px;
+}
+.size-chart {
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.size-chart th,
+.size-chart td {
+  border: 1px solid #ccc;
+  padding: 25px 35px 25px 35px;
+  text-align: center;
+}
+
+.size-chart th {
+  width: 11rem;
+  background-color: #f2f2f2;
+}
+.size-chart td:nth-child(odd) {
+  background-color: #f2f2f2; /* İstediğiniz renk */
+}

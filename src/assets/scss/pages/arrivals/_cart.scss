@@ -1,0 +1,249 @@
+.removeItemButton {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cart-item-details {
+  position: relative; /* Needed to position the remove button absolutely */
+}
+
+.cartItem {
+  box-shadow: -4px 0 8px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: white;
+  transition: transform 0.3s ease-in-out;
+  overflow-y: auto;
+  padding: 20px;
+
+  .cartHeader {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .closeIcon {
+      font-size: 50px;
+      color: #000;
+      cursor: pointer;
+    }
+  }
+
+  .cart-item {
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+    gap: 15px;
+    padding: 0px 15px 25px 0px;
+    border-bottom: 2px solid #ccc;
+    margin: 18px 0px;
+    img {
+      width: 100px;
+      height: auto;
+      border: 1px solid black;
+    }
+  }
+
+  .cart-count {
+    background: #000;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+  }
+
+  .cartProgress {
+    width: 104%;
+    height: 8px;
+    background: #eee;
+    margin: 0px 8px;
+  }
+
+  .progressBar {
+    transition: width 0.3s ease;
+    margin-top: 25px;
+    height: 90%;
+    background: rgb(184, 209, 220);
+  }
+
+  .cartQuan {
+    margin-top: 16px;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .cartTitle {
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+
+    span {
+      color: rgb(33, 33, 33);
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      line-height: 35px;
+    }
+
+    p {
+      margin-top: 30px;
+      color: rgb(33, 33, 33);
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+  }
+
+  .link {
+    text-transform: uppercase;
+    width: 51%;
+    text-align: center;
+    border: 2px solid #000;
+    display: inline-block;
+    color: #000;
+    padding: 15px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: #000;
+      color: white;
+    }
+  }
+
+  .cartLink {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    p {
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: rgb(33, 33, 33);
+      letter-spacing: 0.5px;
+    }
+    h4 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.checkout-button {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+  background-color: #000;
+  color: white;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.cartToggle {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  cursor: pointer;
+
+  .cartIcon {
+    margin-top: -2px;
+    margin-right: -10px;
+    font-size: 24px;
+    color: #000;
+  }
+}
+
+.subTotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .cartItem {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+@media (max-width: 399px) {
+  .cartItem {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    .cartLink p {
+      margin-right: 50px;
+      margin-bottom: 0px;
+      font-size: 17px;
+      color: rgb(33, 33, 33);
+      letter-spacing: 0.5px;
+    }
+    .cartLink h4 {
+      font-size: 18px;
+    }
+    .cartQuan {
+      margin-top: 2px;
+      width: 270px;
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+    }
+    .removeItemButton {
+      margin-top: 0px;
+      margin-right: 35px;
+    }
+    .cart-item {
+      margin-bottom: 6px;
+      align-items: flex-start;
+      justify-content: space-between;
+      display: flex;
+      gap: 15px;
+      padding: 0px 0px 6px 50px;
+      border-bottom: 2px solid #ccc;
+    }
+    .cart-total {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .checkout-button {
+      margin-top: 10px;
+      width: 77%;
+      margin-left: 50px;
+    }
+  }
+
+  .cart-count {
+    color: black;
+    font-size: 15px;
+    line-height: 1.5rem;
+  }
+  .cartToggle {
+    position: absolute;
+    margin-top: 20px;
+  }
+}

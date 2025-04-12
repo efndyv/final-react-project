@@ -1,0 +1,257 @@
+.barofb img {
+  padding: 15px;
+  width: 20%;
+}
+.expressCheck {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.56);
+}
+.payBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 25px;
+  .leoBtn {
+    border-radius: 4px;
+    padding: 5px 130px;
+    background-color: #000;
+    &:hover {
+      filter: drop-shadow(2px 7px 4px rgba(0, 0, 0, 0.3));
+    }
+
+    img {
+      overflow: hidden;
+      width: 115%;
+      height: 40px;
+    }
+  }
+  .paypalBtn {
+    border: 1px solid #ffc439;
+    padding: 5px 130px;
+    border-radius: 4px;
+    background-color: #ffc439;
+    &:hover {
+      filter: drop-shadow(2px 7px 4px rgba(0, 0, 0, 0.3));
+    }
+  }
+  img {
+    margin-top: 7px;
+    overflow: hidden;
+    width: 80%;
+    height: 40px;
+  }
+  p {
+    text-align: center;
+  }
+}
+.checkout-container {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+
+.checkout-container .checkout-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.checkout-container .checkout-sections section h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.checkout-container .checkout-sections section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.checkout-container .checkout-sections section form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-container .checkout-sections section form .form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.checkout-container .checkout-sections section form .form-group input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.checkout-container .checkout-sections section form .form-group input:focus {
+  border: 2px solid #222;
+}
+
+.checkout-container .checkout-sections section form .form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.checkout-container .checkout-sections section form .form-row .form-group {
+  flex: 1;
+}
+
+.checkout-container .checkout-sections section form .pay-now-btn {
+  padding: 12px 20px;
+  background-color: black;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.checkout-container .checkout-sections section form .pay-now-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.delivery-section h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.delivery-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formGroup {
+  display: flex;
+  gap: 7px;
+  input {
+    padding: 20px 285px 15px 15px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.zipItem {
+  display: flex;
+  gap: 2px;
+  input {
+    padding: 20px 92px 15px 15px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border 0.3s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border: 2px solid #000;
+  outline: none;
+}
+
+.form-group select {
+  background-color: #fff;
+  cursor: pointer;
+}
+.form-group label span {
+  font-size: 0.9rem;
+  color: gray;
+}
+#state {
+  padding: 20px 290px 15px 15px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.payment-methods {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+.afterpay {
+  padding: 0 50px;
+  background: black;
+}
+.payment-methods {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.payment-method {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.payment-method.active {
+  border-color: #000;
+  background-color: #f0f0f0;
+}
+
+.payment-method input[type="radio"] {
+  margin-right: 10px;
+}
+
+.payment-method-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.refundPolicy {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  a {
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+.borderDiv {
+  margin-bottom: 20px;
+  border: 0.5px solid #ccc;
+}
+.termsofService{
+  align-items: center;
+  display: flex;
+  padding-bottom: 40px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10%
+}

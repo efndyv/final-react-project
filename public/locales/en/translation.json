@@ -1,0 +1,279 @@
+{
+  "header": {
+    "title": "Free Shipping On Orders Over $75. Free Returns."
+  },
+  "navbar": {
+    "men": " MEN",
+    "women": "WOMEN",
+    "socks": "SOCKS",
+    "arrivals": "NEW ARRIVALS",
+    "sustainability": "SUSTAINABILITY",
+    "rerun": "RERUN",
+    "stores": "STORES"
+  },
+  "bottombar": {
+    "menShoes": "Men's Shoes",
+    "womenShoes": "Women's Shoes",
+    "newArrivals": "New Arrivals"
+  },
+  "footer": {
+    "emailSignup": "Enter your email to stay in touch!",
+    "emailPlaceholder": "Enter your email",
+    "signUp": "SIGN UP",
+    "successMessage": "Great! You're all set! Cheers!",
+    "help": "Help",
+    "chatWithUs": "Chat with us!",
+    "phoneNumber": "1-888-963-8944",
+    "email": "help@allbirds.com",
+    "textNumber": "1-814-251-9966 (Text)",
+    "returns": "Returns/Exchanges",
+    "faq": "FAQ/Contact Us",
+    "afterpay": "Afterpay",
+    "shop": "Shop",
+    "mensShoes": "Men's Shoes",
+    "womensShoes": "Women's Shoes",
+    "mensApparel": "Men's Apparel",
+    "womensApparel": "Women's Apparel",
+    "socks": "Socks",
+    "giftCards": "Gift Cards",
+    "referFriend": "Refer a Friend",
+    "company": "Company",
+    "ourStores": "Our Stores",
+    "ourStory": "Our Story",
+    "sustainability": "Sustainability",
+    "ourMaterials": "Our Materials",
+    "investors": "Investors",
+    "shoeCare": "Shoe Care",
+    "affiliates": "Affiliates",
+    "bulkOrders": "Bulk Orders",
+    "careers": "Careers",
+    "press": "Press",
+    "responsibleDisclosure": "Allbirds Responsible Disclosure Program",
+    "transparencyAct": "California Transparency Act",
+    "communityOffers": "Community Offers",
+    "blog": "Our Blog",
+    "patents": "Patents",
+    "follow": "Follow the Flock",
+    "followText": "Exclusive offers, a heads up on new things, and sightings of Allbirds in the wild. Oh, we have cute sheep, too. #allbirds",
+    "copyright": "© {{year}} Allbirds, Inc. All Rights Reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "accessibility": "Accessibility"
+  },
+  "hero": [
+    {
+      "title": "The New Runner Chelsea Protect",
+      "title2": "A Classic, Remastered.",
+      "title3": "Our new Chelsea boot has landed:",
+      "title4": "Sleek. Modern. Water Repellent.",
+      "name1": "SHOP MEN",
+      "name2": "SHOP WOMEN"
+    },
+    {
+      "title5": "New limited-edition hues are here for spring.",
+      "title2": "Blues In Bloom fhfhf",
+      "name1": "SHOP MEN",
+      "name2": "SHOP WOMEN"
+    }
+  ],
+  "tripanel": [
+    {
+      "buttonTitle1": "Shop Men",
+      "buttonTitle2": "Shop Women",
+      "title": "Bouncy, Everyday Active Sneaker"
+    },
+    {
+      "buttonTitle1": "Shop Men",
+      "buttonTitle2": "Shop Women",
+      "title": "Sneakers Made From Cool "
+    },
+    {
+      "buttonTitle1": "Shop Men",
+      "buttonTitle2": "Shop Women",
+      "title": "Sneakers Made From Cool "
+    }
+  ],
+  "absoPage": {
+    "title": "We Make Better Things In A Better Way",
+    "description": "By looking to the world's greatest innovator—Nature—we create shoes that deliver unrivaled comfort that you feel good in and feel good about."
+  },
+  "filteredSlider": {
+    "activeBtn": {
+      "onTheMove": "On The Move",
+      "everydayWear": "Everyday Wear",
+      "weatherReady": "Weather Ready"
+    },
+    "products": {
+      "mensActive": "Men's Active Shoes",
+      "womensActive": "Women's Active Shoes",
+      "mensSeason": "Men’s Season-Ready Styles",
+      "womensSeason": "Women’s Season-Ready Styles",
+      "mensWeather": "Men's Weather-Ready Collection",
+      "womensWeather": "Women's Weather-Ready Collection"
+    }
+  },
+  "bountiful": {
+    "shopMen": "Shop Men",
+    "shopWomen": "Shop Women",
+    "header": "New And Bountiful Blues",
+    "subtitle": "Cool shades to put some spring in your step.",
+    "products": [
+      {
+        "title": "Tree Gliders",
+        "name": "Blizzard/Hanami blue"
+      },
+      {
+        "title": "Tree Runner Go",
+        "name": "Blizzard/Hanami night"
+      },
+      {
+        "title": "Tree Runner Go",
+        "name": "Hanami night"
+      },
+      {
+        "title": "Tree Dasher 2",
+        "name": "Hanami night"
+      }
+    ],
+    "currencySymbol": "$",
+    "currency": "USD"
+  },
+  "dualPanel": {
+    "explore": "EXPLORE NOW",
+    "moonshot": {
+      "name": "M0.0NSHOT Zero",
+      "title": "World's First Net Zero Carbon Shoe"
+    },
+    "treeStyles": {
+      "name": "Tree Styles",
+      "title": "Sneakers Made From Cool, Breathable Eucalyptus Fiber",
+      "shopMen": "Shop Men",
+      "shopWomen": "Shop Women"
+    }
+  },
+  "carousel": {
+    "title": "More To Shop",
+    "products": {
+      "30": {
+        "title": "Men's Tree Runner Go",
+        "name": "Hanami Night"
+      },
+      "31": {
+        "title": "Women's Tree Dasher 2",
+        "name": "Blizzard/Hanami Night"
+      },
+      "32": {
+        "title": "Men’s Tree Loungers",
+        "name": "Hanami Night"
+      },
+      "33": {
+        "title": "Women’s Loungers Lift",
+        "name": "Natural White/Hanami Night"
+      },
+      "34": {
+        "title": "Men's Trail Runners",
+        "name": "Blizzard/Hanami Night"
+      },
+      "35": {
+        "title": "Women's Tree Runners",
+        "name": "Zen Blue"
+      },
+      "36": {
+        "title": "Men’s Tree Runners",
+        "name": "Navy Night"
+      },
+      "37": {
+        "title": "Women’s Tree Breezers",
+        "name": "Jet Black"
+      }
+    }
+  },
+  "firstDibs": {
+    "title": "Want First Dibs?",
+    "description": "Join our email list and be the first to know about new limited edition products, material innovations, and lots of other fun updates.",
+    "emailPlaceholder": "Enter Your Email Address",
+    "signUpBtn": "SIGN UP",
+    "note": "Note: You can opt-out at any time. See our",
+    "privacyPolicy": "Privacy Policy",
+    "and": "and",
+    "terms": "Terms"
+  },
+  "approach": {
+    "title": "The Allbirds Approach",
+    "firstApp": {
+      "title": "Wear-All-Day Comfort",
+      "description": "Lightweight, bouncy, and wildly comfortable, Allbirds shoes make any outing feel effortless. Slip in, lace up, or slide them on and enjoy the comfy support."
+    },
+    "secApp": {
+      "title": "Sustainability In Every Step",
+      "description": "From materials to transport, we’re working to reduce our carbon footprint to near zero. Holding ourselves accountable and striving for climate goals isn’t a 30-year goal—it’s now."
+    },
+    "threeApp": {
+      "title": "Materials From The Earth",
+      "description": "We replace petroleum-based synthetics with natural alternatives wherever we can. Like using wool, tree fiber, and sugar cane. They’re soft, breathable, and better for the planet—win, win, win."
+    },
+    "learnMore": "Learn More"
+  },
+  "cart": {
+    "empty": "Your Cart is Empty",
+    "shopMen": "Shop Men's",
+    "shopWomen": "Shop Women's",
+    "shopSocks": "Shop Socks",
+    "shopMensSale": "Shop Men's Sale",
+    "shopWomensSale": "Shop Women's Sale",
+    "freeShipping": "Congrats! You get free standard shipping.",
+    "shippingRemaining": "You're {{amount}} away from free shipping!",
+    "subtotal": "Subtotal:",
+    "checkout": "Proceed to Checkout",
+    "removeItem": "Remove Item",
+    "continueShopping": "Continue Shopping",
+    "size": "Size",
+    "currencySymbol": "$",
+    "currency": "USD"
+  },
+  "error404": {
+    "title": "Uh-Oh, Nothing To See Here!",
+    "message": "The page you requested doesn’t exist. Let’s try a different direction.",
+    "shopMen": "Shop MEN",
+    "shopWomen": "Shop WOMEN"
+  },
+
+  "searchResults": "Search Results",
+  "searchPlaceholder": "Enter Search Term...",
+  "noProductsFound": "No products found",
+  "products": {
+    "30": {
+      "title": "Men's Tree Runner Go"
+    },
+    "31": {
+      "title": "Women's Tree Dasher 2"
+    },
+    "32": {
+      "title": "Men’s Tree Loungers"
+    },
+    "33": {
+      "title": "Women’s Loungers Lift"
+    },
+    "34": {
+      "title": "Men's Trail Runners"
+    },
+    "35": {
+      "title": "Women's Tree Runners"
+    },
+    "36": {
+      "title": "Men’s Tree Runners"
+    },
+    "37": {
+      "title": "Women’s Tree Breezers"
+    }
+  },
+  "reRun": {
+    "title": "Allbirds ReRun™",
+    "subtitle": "A New Way To Get Old Favorites",
+    "description1": "Allbirds ReRun™ is a marketplace where you can shop slightly",
+    "description2": "imperfect and gently used products, extending their life and lowering",
+    "description3": "our impact on the planet. Allbirds has partnered with Trove, a",
+    "disclaimer": "By clicking the link below, you will be leaving allbirds.com and heading to",
+    "button": "Start Shopping ReRun™"
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "header": {
+    "title": "Gratis verzending bij bestellingen boven de €75. Gratis retour."
+  },
+  "navbar": {
+    "men": "HEREN",
+    "women": "DAMES",
+    "socks": "SOKKEN",
+    "arrivals": "NIEUWE ARRIVALS",
+    "sustainability": "DUURZAAMHEID",
+    "rerun": "RERUN",
+    "stores": "WINKELS"
+  },
+  "bottombar": {
+    "menShoes": "Herenschoenen",
+    "womenShoes": "Damesschoenen",
+    "newArrivals": "Nieuwe Arrivals"
+  },
+  "footer": {
+    "emailSignup": "Vul je e-mailadres in om op de hoogte te blijven!",
+    "emailPlaceholder": "Voer je e-mailadres in",
+    "signUp": "AANMELDEN",
+    "successMessage": "Top! Je bent klaar. Bedankt!",
+    "help": "Hulp",
+    "chatWithUs": "Chat met ons!",
+    "phoneNumber": "1-888-963-8944",
+    "email": "help@allbirds.com",
+    "textNumber": "1-814-251-9966 (Sms)",
+    "returns": "Retouren/Ruilen",
+    "faq": "FAQ/Contact",
+    "afterpay": "Afterpay",
+    "shop": "Winkel",
+    "mensShoes": "Herenschoenen",
+    "womensShoes": "Damesschoenen",
+    "mensApparel": "Herenkleding",
+    "womensApparel": "Dameskleding",
+    "socks": "Sokken",
+    "giftCards": "Cadeaubonnen",
+    "referFriend": "Vriend doorverwijzen",
+    "company": "Bedrijf",
+    "ourStores": "Onze winkels",
+    "ourStory": "Ons verhaal",
+    "sustainability": "Duurzaamheid",
+    "ourMaterials": "Onze materialen",
+    "investors": "Investeerders",
+    "shoeCare": "Schoenverzorging",
+    "affiliates": "Partners",
+    "bulkOrders": "Grote bestellingen",
+    "careers": "Vacatures",
+    "press": "Pers",
+    "responsibleDisclosure": "Allbirds Responsible Disclosure Programma",
+    "transparencyAct": "California Transparency Act",
+    "communityOffers": "Community-aanbiedingen",
+    "blog": "Onze blog",
+    "patents": "Octrooien",
+    "follow": "Volg ons",
+    "followText": "Exclusieve aanbiedingen, nieuws over nieuwe producten en Allbirds in het wild. Oh, en schattige schapen. #allbirds",
+    "copyright": "© {{year}} Allbirds, Inc. Alle rechten voorbehouden.",
+    "terms": "Voorwaarden",
+    "privacy": "Privacy",
+    "accessibility": "Toegankelijkheid"
+  },
+  "hero": [
+    {
+      "title": "De Nieuwe Runner Chelsea Protect",
+      "title2": "Een klassieker, herzien.",
+      "title3": "Onze nieuwe Chelsea-laars is geland:",
+      "title4": "Strak. Modern. Waterafstotend.",
+      "name1": "WINKEL HEREN",
+      "name2": "WINKEL DAMES"
+    },
+    {
+      "title5": "Nieuwe limited-edition kleuren voor de lente zijn er!",
+      "title2": "Blauwe bloei",
+      "name1": "WINKEL HEREN",
+      "name2": "WINKEL DAMES"
+    }
+  ],
+  "tripanel": [
+    {
+      "buttonTitle1": "Winkel Heren",
+      "buttonTitle2": "Winkel Dames",
+      "title": "Veerkrachtige, alledaagse actieve sneaker"
+    },
+    {
+      "buttonTitle1": "Winkel Heren",
+      "buttonTitle2": "Winkel Dames",
+      "title": "Sneakers gemaakt van koele materialen"
+    },
+    {
+      "buttonTitle1": "Winkel Heren",
+      "buttonTitle2": "Winkel Dames",
+      "title": "Sneakers gemaakt van koele materialen"
+    }
+  ],
+  "absoPage": {
+    "title": "Wij maken betere dingen op een betere manier",
+    "description": "Door te kijken naar 's werelds grootste innovator – de natuur – creëren we schoenen die ongeëvenaard comfort bieden en waar je je goed in én goed over voelt."
+  },
+  "filteredSlider": {
+    "activeBtn": {
+      "onTheMove": "Onderweg",
+      "everydayWear": "Dagelijks gebruik",
+      "weatherReady": "Weerbestendig"
+    },
+    "products": {
+      "mensActive": "Actieve herenschoenen",
+      "womensActive": "Actieve damesschoenen",
+      "mensSeason": "Seizoensstijlen voor heren",
+      "womensSeason": "Seizoensstijlen voor dames",
+      "mensWeather": "Weerbestendige collectie voor heren",
+      "womensWeather": "Weerbestendige collectie voor dames"
+    }
+  },
+  "bountiful": {
+    "shopMen": "Shop Heren",
+    "shopWomen": "Shop Dames",
+    "header": "Nieuwe en Rijke Blauwtinten",
+    "subtitle": "Koele tinten voor een frisse lentestap",
+    "products": [
+      {
+        "title": "Tree Gliders",
+        "name": "Blizzard/Hanami blauw"
+      },
+      {
+        "title": "Tree Runner Go",
+        "name": "Blizzard/Hanami nacht"
+      },
+      {
+        "title": "Tree Runner Go",
+        "name": "Hanami nacht"
+      },
+      {
+        "title": "Tree Dasher 2",
+        "name": "Hanami nacht"
+      }
+    ],
+    "currencySymbol": "€",
+    "currency": "EUR"
+  },
+  "dualPanel": {
+    "explore": "ONTDEK NU",
+    "moonshot": {
+      "name": "M0.0NSHOT Zero",
+      "title": "Werelds eerste CO2-neutrale schoen"
+    },
+    "treeStyles": {
+      "name": "Boomstijlen",
+      "title": "Sneakers gemaakt van koele, ademende eucalyptusvezel",
+      "shopMen": "Shop Heren",
+      "shopWomen": "Shop Dames"
+    }
+  },
+  "carousel": {
+    "title": "Meer om te winkelen",
+    "products": {
+      "30": {
+        "title": "Heren Tree Runner Go",
+        "name": "Hanami Night"
+      },
+      "31": {
+        "title": "Dames Tree Dasher 2",
+        "name": "Blizzard/Hanami Night"
+      },
+      "32": {
+        "title": "Heren Tree Loungers",
+        "name": "Hanami Night"
+      },
+      "33": {
+        "title": "Dames Loungers Lift",
+        "name": "Natural White/Hanami Night"
+      },
+      "34": {
+        "title": "Heren Trail Runners",
+        "name": "Blizzard/Hanami Night"
+      },
+      "35": {
+        "title": "Dames Tree Runners",
+        "name": "Zen Blue"
+      },
+      "36": {
+        "title": "Heren Tree Runners",
+        "name": "Navy Night"
+      },
+      "37": {
+        "title": "Dames Tree Breezers",
+        "name": "Jet Black"
+      }
+    }
+  },
+
+  "firstDibs": {
+    "title": "Wil je als eerste op de hoogte zijn?",
+    "description": "Meld je aan voor onze e-maillijst en wees de eerste die hoort over nieuwe gelimiteerde producten, materiaalinnovaties en veel andere leuke updates.",
+    "emailPlaceholder": "Voer je e-mailadres in",
+    "signUpBtn": "AANMELDEN",
+    "note": "Opmerking: je kunt je op elk moment afmelden. Bekijk ons",
+    "privacyPolicy": "Privacybeleid",
+    "and": "en",
+    "terms": "Voorwaarden"
+  },
+  "approach": {
+    "title": "De Allbirds Benadering",
+    "firstApp": {
+      "title": "Comfort om de hele dag te dragen",
+      "description": "Lichtgewicht, veerkrachtig en ongelooflijk comfortabel, Allbirds schoenen maken elke uitje moeiteloos. Glijd erin, maak ze vast of trek ze aan en geniet van het comfortabele ondersteuning."
+    },
+    "secApp": {
+      "title": "Duurzaamheid in elke stap",
+      "description": "Van materialen tot transport, we werken eraan om onze koolstofvoetafdruk bijna tot nul te reduceren. Verantwoordelijkheid nemen en streven naar klimaatdoelen is geen doel voor over 30 jaar – het is nu."
+    },
+    "threeApp": {
+      "title": "Materialen uit de aarde",
+      "description": "We vervangen petroleumgebaseerde synthetica door natuurlijke alternatieven waar mogelijk. Zoals het gebruik van wol, houtvezel en suikerbieten. Ze zijn zacht, ademend en beter voor de planeet—win, win, win."
+    },
+    "learnMore": "Meer informatie"
+  },
+  "cart": {
+    "empty": "Je winkelwagentje is leeg",
+    "shopMen": "Shop voor heren",
+    "shopWomen": "Shop voor dames",
+    "shopSocks": "Shop sokken",
+    "shopMensSale": "Shop herenuitverkoop",
+    "shopWomensSale": "Shop damesuitverkoop",
+    "freeShipping": "Gefeliciteerd! Je krijgt gratis standaardverzending.",
+    "shippingRemaining": "Je hebt nog maar {{amount}} te gaan voor gratis verzending!",
+    "subtotal": "Tussenstand:",
+    "checkout": "Ga verder naar afrekenen",
+    "removeItem": "Verwijder artikel",
+    "continueShopping": "Blijf winkelen",
+    "size": "Maat",
+    "currencySymbol": "€",
+    "currency": "EUR"
+  },
+  "error404": {
+    "title": "Oeps, Hier Is Niets Te Zien!",
+    "message": "De pagina die je hebt opgevraagd bestaat niet. Laten we een andere richting proberen.",
+    "shopMen": "Shop HEREN",
+    "shopWomen": "Shop DAMES"
+  },
+
+  "searchResults": "Zoekresultaten",
+  "searchPlaceholder": "Voer zoekterm in...",
+  "noProductsFound": "Geen producten gevonden",
+  "products": {
+    "30": {
+      "title": "Heren Tree Runner Go"
+    },
+    "31": {
+      "title": "Dames Tree Dasher 2"
+    },
+    "32": {
+      "title": "Heren Tree Loungers"
+    },
+    "33": {
+      "title": "Dames Loungers Lift"
+    },
+    "34": {
+      "title": "Heren Trail Runners"
+    },
+    "35": {
+      "title": "Dames Tree Runners"
+    },
+    "36": {
+      "title": "Heren Tree Runners"
+    },
+    "37": {
+      "title": "Dames Tree Breezers"
+    }
+  },
+  "reRun": {
+    "title": "Allbirds ReRun™",
+    "subtitle": "Een nieuwe manier om oude favorieten te krijgen",
+    "description1": "Allbirds ReRun™ is een marktplaats waar je kunt winkelen voor licht",
+    "description2": "onjuiste en zacht gebruikte producten, waardoor hun levensduur wordt verlengd en onze",
+    "description3": "impact op de planeet wordt verlaagd. Allbirds heeft samengewerkt met Trove, een",
+    "disclaimer": "Door op de onderstaande link te klikken, verlaat je allbirds.com en ga je naar de ReRun-marktplaats.",
+    "button": "Begin met winkelen bij ReRun™"
+  }
+}

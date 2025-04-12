@@ -1,0 +1,238 @@
+.footer {
+  margin-top: 75px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  margin-left: 4.5%;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 200px;
+  margin-top: 27px;
+}
+
+.footer-column {
+  text-align: left;
+  margin: 10px;
+}
+
+.footer-column h4 {
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f2f2f2;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.flagRow {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  line-height: 3;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+.leftFlag,
+.flagRow {
+  text-align: start;
+  margin-top: 20px;
+}
+.flagRow {
+  grid-template-columns: repeat(10, 1fr);
+  // flex-wrap: wrap;
+  display: grid;
+  justify-content: start;
+  gap: 15px;
+  // width: 700px;
+}
+.rightFlag img {
+  width: 55px;
+  height: 55px;
+}
+.flagSection {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftFlag p {
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 4;
+}
+.leftFlag span {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  margin: 0 0 18px;
+}
+.copyReserv {
+  margin-top: 60px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.copyReserv a {
+  text-decoration: underline;
+  color: white;
+}
+
+.btnBot {
+  margin-top: 40px;
+  margin-left: 80px;
+  text-align: left;
+  p {
+    letter-spacing: 0.5px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+  }
+  input {
+    width: 305px;
+    padding: 10px;
+    height: 47px;
+    text-align: left;
+    font-size: 17.5px;
+    margin-right: 10px;
+    font-weight: 700;
+  }
+  .footerBtn {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 15px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(77, 85, 89);
+  }
+  button {
+    background-color: rgb(77, 85, 89);
+    color: white;
+    padding: 15px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    &:hover {
+      background-color: white;
+      color: #000;
+    }
+  }
+  .footerBtn {
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  .footerBtn:focus {
+    border-bottom: 2px solid #fff !important;
+    border: 2px solid #222;
+  }
+}
+
+@media (max-width: 399px) {
+  .footer-container {
+    flex-direction: column;
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    gap: 59px;
+    margin-top: 20px;
+  }
+  .footer-column {
+    margin: 10px;
+    text-align: center;
+    a {
+      font-size: 16px;
+    }
+  }
+  .flagRow {
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+    display: grid;
+    justify-content: start;
+    gap: 15px;
+    // width: 700px;
+  }
+  .flagSection {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .leftFlag p {
+    text-align: center;
+  }
+  .leftFlag span {
+    white-space: nowrap;
+    font-size: 16px;
+  }
+  .social-icons {
+    justify-content: center;
+  }
+  .successMessage {
+    font-size: 16px;
+    display: flex;
+    margin-left: 75px;
+  }
+
+  .copyReserv {
+    font-size: 14px;
+  }
+  .btnBot .footerBtn {
+    margin-left: -30%;
+    width: 129%;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  .btnBot button {
+    width: 129%;
+    margin-left: -80px;
+  }
+  .btnBot p {
+    margin-left: -79px;
+  }
+}

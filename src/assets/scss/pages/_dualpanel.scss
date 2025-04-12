@@ -1,0 +1,157 @@
+.mainPanel {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.leftPanel {
+  position: relative;
+  transform: scale(1);
+  transition: 0.3s ease;
+  height: 100%;
+  overflow: hidden;
+
+  &:hover img {
+    transform: scale(1.05);
+    overflow: hidden;
+  }
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  filter: brightness(85%);
+}
+
+.content {
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  color: white;
+  padding: 45px 0px 45px;
+  &:hover .linkProduct {
+    opacity: 1;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+}
+
+.content h3 {
+  font-weight: bold;
+  margin: 0 0 10px;
+  font-size: 26px;
+  line-height: 1.75rem;
+}
+.content h2 {
+  font-weight: 300;
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.buttonGroup,
+.content > div {
+  margin-top: 10px;
+}
+
+.linkProduct {
+  transform: translate(-50%, -50%);
+
+  background-color: white;
+  padding: 15px 50px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 5px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.linkProduct:hover {
+  background-color: black;
+  color: white;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .mainPanel {
+    flex-direction: row;
+  }
+
+  .content {
+    padding: 30px 0px 30px;
+  }
+
+  .content h3 {
+    font-size: 22px;
+  }
+
+  .content h2 {
+    font-size: 16px;
+  }
+
+  .linkProduct {
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    padding: 20px 0px 20px;
+  }
+
+  .content h3 {
+    font-size: 20px;
+  }
+
+  .content h2 {
+    font-size: 14px;
+  }
+
+  .linkProduct {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content h3 {
+    font-size: 18px;
+  }
+
+  .content h2 {
+    font-size: 12px;
+  }
+
+  .linkProduct {
+    padding: 5px 15px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 399px) {
+  .content h3 {
+    font-size: 25px;
+  }
+
+  .content h2 {
+    font-size: 20px;
+  }
+
+  .linkProduct {
+    padding: 11px 30px;
+    font-size: 12px;
+  }
+}

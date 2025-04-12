@@ -1,0 +1,33 @@
+@use "./assets/scss/base";
+
+
+@use "./assets/scss/components/header";
+@use "./assets/scss/components/footer";
+@use "./assets/scss/components/error404";
+
+
+// Home 
+@use "./assets/scss/pages/hero";
+@use "./assets/scss/pages/tripanel";
+@use "./assets/scss/pages/module";
+@use "./assets/scss/pages/filteredslider";
+@use "./assets/scss/pages/bountiful"; 
+@use "./assets/scss/pages/dualpanel";
+@use "./assets/scss/pages/cardcarousel";
+@use "./assets/scss/pages/firstdibs";
+@use "./assets/scss/pages/approach";
+@use "./assets/scss/pages/chatbox";
+
+//Shop
+
+@use "./assets/scss/pages/arrivals/arrivals";
+@use "./assets/scss/pages/arrivals/productcard";
+@use "./assets/scss/pages/faq";
+@use "./assets/scss/pages/rerun/rerun";
+@use "./assets/scss/pages/arrivals/cart";
+@use "./assets/scss/pages/arrivals/productdetail";
+@use "./assets/scss/pages/arrivals/studio";
+@use "./assets/scss/pages/arrivals/careguide";
+@use "./assets/scss/pages/arrivals/checkout";
+@use "./assets/scss/components/search";
+

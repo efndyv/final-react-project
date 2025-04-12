@@ -1,0 +1,123 @@
+.appRoach {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 70px;
+  text-align: center; /* Center the heading */
+}
+
+.allApproach {
+  gap: 30px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+
+  p {
+    margin-bottom: 9px;
+    font-size: 22px;
+    line-height: 1.32;
+    font-weight: 900;
+  }
+
+  span {
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+/* Responsive Design with Media Queries */
+
+/* For tablets and small desktops */
+@media (max-width: 1024px) {
+  .appRoach {
+    font-size: 28px; /* Slightly smaller font size */
+    margin-top: 50px; /* Reduce margin */
+  }
+
+  .allApproach {
+    gap: 20px; /* Reduce gap between items */
+
+    p {
+      color: #000;
+      font-size: 20px; /* Slightly smaller font size */
+    }
+
+    span {
+      color: #000;
+
+      font-size: 14px; /* Slightly smaller font size */
+    }
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .appRoach {
+    font-size: 24px; /* Smaller font size */
+    margin-top: 40px; /* Further reduce margin */
+  }
+
+  .allApproach {
+    flex-direction: column; /* Stack items vertically */
+    gap: 30px; /* Increase gap for stacked layout */
+    align-items: flex-start; /* Align text to the left */
+    padding: 0 20px; /* Add padding for better spacing */
+
+    p {
+      font-size: 18px; /* Smaller font size */
+    }
+
+    span {
+      font-size: 13px; /* Smaller font size */
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .appRoach {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .allApproach {
+    gap: 20px;
+    padding: 0 10px;
+
+    p {
+      font-size: 16px;
+    }
+
+    span {
+      font-size: 12px;
+    }
+  }
+}
+@media (max-width: 399px) {
+  .appRoach {
+    text-align: start;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .allApproach {
+    gap: 10px;
+    padding: 0 0px;
+
+    p {
+      margin-top: 22px;
+      font-size: 18px;
+    }
+
+    span {
+      font-size: 13px;
+    }
+  }
+}

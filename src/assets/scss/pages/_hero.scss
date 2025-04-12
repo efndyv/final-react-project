@@ -1,0 +1,384 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.mySwiper {
+  height: 85vh !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroItem {
+  position: relative;
+}
+.title {
+  width: 600px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 120px;
+  z-index: 1;
+  right: 20px;
+  color: white;
+  letter-spacing: 0.05em;
+
+  h1 {
+    font-weight: 200;
+    font-size: 25px;
+    margin-left: 15%;
+  }
+  .border {
+    height: 2px;
+    width: 85px;
+    background-color: white;
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    margin-top: 20px;
+  }
+  h2 {
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 0.05em;
+    font-size: 6.5rem;
+    line-height: 1;
+    font-weight: 100;
+    text-align: right;
+  }
+  .titleAll {
+    position: absolute;
+    letter-spacing: 0.05em;
+    padding-top: 40px;
+  }
+
+  .one-line {
+    white-space: nowrap;
+    position: relative;
+    right: 95px;
+    top: 250px;
+    font-weight: 100;
+    font-size: 98px;
+  }
+  .two-line {
+    margin-top: 50px;
+    font-size: 85px;
+  }
+  span {
+    font-size: 0.875rem;
+    font-weight: 100;
+  }
+  .titleUp {
+    margin-top: 230px;
+    margin-left: 275px;
+  }
+}
+.noteItem {
+  text-transform: uppercase;
+  font-size: 13.5px;
+  letter-spacing: 1px;
+  color: white;
+  position: absolute;
+  bottom: 130px;
+  right: 40px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  font-size: 16px;
+  font-weight: 500;
+
+  .link {
+    background-color: white;
+    padding: 10px 25px;
+    color: black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .mySwiper {
+    height: 60vh !important;
+  }
+
+  .title {
+    width: 90% !important;
+    right: 50% !important;
+    transform: translateX(50%);
+    top: 70px !important;
+    text-align: center;
+
+    h1 {
+      font-size: 18px !important;
+      margin-left: 0 !important;
+    }
+
+    h2 {
+      margin-top: 90px !important;
+      font-size: 2.5rem !important;
+      text-align: center !important;
+      line-height: 1.2 !important;
+
+      &.one-line {
+        font-size: 3rem !important;
+        right: 0 !important;
+        top: 60px !important;
+      }
+    }
+    .two-line {
+      font-size: 3rem !important;
+      right: 0 !important;
+      margin-top: 100px !important;
+    }
+
+    .border {
+      display: none;
+    }
+
+    .titleUp {
+      margin: 20px 0 !important;
+      margin-left: 0 !important;
+      span {
+        display: block;
+        font-size: 12px !important;
+      }
+    }
+  }
+
+  .noteItem {
+    right: 50% !important;
+    transform: translateX(50%);
+    bottom: 80px !important;
+    text-align: center;
+    width: 80%;
+    font-size: 14px !important;
+  }
+
+  .btn {
+    right: 50% !important;
+    transform: translateX(50%);
+    bottom: 20px !important;
+    width: 80%;
+
+    .link {
+      width: 100%;
+
+      font-size: 14px !important;
+    }
+  }
+
+  .titleAll {
+    position: static !important;
+    margin-top: 10px;
+  }
+
+  .swiper-slide img {
+    object-position: 60% center;
+  }
+}
+
+@media (max-width: 570px) {
+  .mySwiper {
+    height: 60vh !important;
+  }
+
+  .title {
+    width: 90% !important;
+    right: 50% !important;
+    transform: translateX(50%);
+    top: 70px !important;
+    text-align: center;
+
+    h1 {
+      font-size: 7px !important;
+      margin-left: 0 !important;
+    }
+
+    h2 {
+      margin-top: 10px !important;
+      font-size: 1rem !important;
+      text-align: center !important;
+      line-height: 1.2 !important;
+
+      &.one-line {
+        font-size: 3rem !important;
+        right: 0 !important;
+        top: 130px !important;
+      }
+    }
+    .two-line {
+      font-size: 3rem !important;
+      right: 0 !important;
+      margin-top: 50px !important;
+    }
+
+    .border {
+      display: none;
+    }
+
+    .titleUp {
+      margin: 20px 0 !important;
+      margin-left: 0 !important;
+      span {
+        display: block;
+        font-size: 12px !important;
+      }
+    }
+  }
+
+  .noteItem {
+    right: 50% !important;
+    transform: translateX(50%);
+    bottom: 80px !important;
+    text-align: center;
+    width: 80%;
+    font-size: 14px !important;
+  }
+
+  .btn {
+    right: 50% !important;
+    transform: translateX(50%);
+    bottom: 20px !important;
+    width: 80%;
+
+    .link {
+      width: 100%;
+
+      font-size: 14px !important;
+    }
+  }
+
+  .titleAll {
+    position: static !important;
+    margin-top: 10px;
+  }
+
+  .swiper-slide img {
+    object-position: 60% center;
+  }
+}
+@media (max-width: 395px) {
+  .mySwiper {
+    height: 60vh !important;
+  }
+
+  .title {
+    width: 90% !important;
+    right: 50% !important;
+    transform: translateX(50%);
+    top: 70px !important;
+    text-align: center;
+
+    h1 {
+      margin-top: -2px;
+        font-size: 13px !important;
+        margin-left: 0 !important;
+    }
+
+    h2 {
+      margin-top: 10px !important;
+      font-size: 1rem !important;
+      text-align: center !important;
+      line-height: 1.2 !important;
+
+      &.one-line {
+        font-size: 3rem !important;
+        right: 0 !important;
+        top: 300px !important;
+      }
+    }
+    .two-line {
+      font-size: 2rem !important;
+   
+        margin-top: 300px !important;
+    }
+
+    .border {
+      display: none;
+    }
+
+    .titleUp {
+      margin: 20px 0 !important;
+      margin-left: 0 !important;
+      span {
+        margin-bottom: -214px;
+        font-size: 16px !important;
+      }
+    }
+  }
+
+  .noteItem {
+    right: 50% !important;
+    transform: translateX(50%);
+    bottom: 80px !important;
+    text-align: center;
+    width: 80%;
+    font-size: 14px !important;
+  }
+
+  .btn {
+    right: 50% !important;
+    transform: translateX(50%);
+    bottom: 20px !important;
+    width: 80%;
+
+    .link {
+      width: 100%;
+
+      font-size: 14px !important;
+    }
+  }
+
+  .titleAll {
+    position: static !important;
+    margin-top: 10px;
+    padding-top: 0px;
+  }
+
+
+  .swiper-slide img {
+    object-position: 60% center;
+    margin-top: 5px;
+  }
+}
