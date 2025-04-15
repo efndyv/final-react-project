@@ -23,6 +23,8 @@ import image70 from "../assets/image/slide/6.avif";
 import image75 from "../assets/image/slide/7.avif";
 import image80 from "../assets/image/slide/8.avif";
 
+
+
 //Products
 import image90 from "../assets/image/detail/allbirds1.avif";
 import image91 from "../assets/image/detail/allbirds2.avif";
@@ -195,51 +197,25 @@ export const productsData = [
   },
 ];
 
+
 export const shoesData = [
-  {
-    id: 1,
-    color: "gray",
-    images: [
-      image90,
-      image91,
-      image92,
-      image93,
-      image94,
-      image95,
-      image96,
-      image97,
-    ],
-    colorImage: "rgb(166, 166, 166)",
-  },
-  {
-    id: 2,
-    color: "white",
-    images: [
-      image98,
-      image99,
-      image100,
-      image101,
-      image102,
-      image103,
-      image104,
-      image105,
-    ],
-    colorImage: "rgb(255, 255, 255)",
-  },
-  {
-    id: 3,
-    color: "blue",
-    images: [
-      image106,
-      image107,
-      image112,
-      image109,
-      ,
-      image111,
-      image110,
-      image108,
-      image113,
-    ],
-    colorImage: "rgb(13, 103, 248)",
-  },
+ {
+  id: 1,
+  color: "gray",
+  images: [image90, image91, image92, image93, image94, image95, image96,image97],
+  colorImage: "rgb(166, 166, 166)", 
+},
+{
+  id: 2,
+  color: "white",
+  images: [image98, image99, image100, image101, image102, image103, image104,image105],
+  colorImage: "rgb(255, 255, 255)", 
+  
+},
+{
+  id: 3,
+  color: "blue",
+  images: [image106, image107,image112 , image109, , image111, image110,image108,image113],
+  colorImage: "rgb(13, 103, 248)", 
+},
 ];

@@ -275,5 +275,25 @@
     "description3": "our impact on the planet. Allbirds has partnered with Trove, a",
     "disclaimer": "By clicking the link below, you will be leaving allbirds.com and heading to",
     "button": "Start Shopping ReRun™"
+  },
+  "arrivals": {
+    "header": "New Arrivals",
+    "bannerLine1": "The latest styles and limited edition colors",
+    "bannerLine2": "that you can only find here (while they last,",
+    "bannerLine3": "that is.)",
+    "filterMen": "Men's New Arrivals",
+    "filterAll": "All Arrivals",
+    "filterWomen": "Women's New Arrivals",
+    "shoesTitle": "Shoes",
+    "shoesLine1": "Classic sneakers. Sporty running shoes. Comfy loafers.",
+    "shoesLine2": "We got the wear-all day (with everything) shoes you and your closet need.",
+    "menTitle": "Men's New Arrivals",
+    "menLink": "new arrivals for men",
+    "menText1": "Welcome to our ",
+    "menText2": "—the fresh-out-of-the-box, squeaky-new styles that we’re excited to share with our fans. Allbirds is continually adding new styles, new",
+    "menText3": " colors, and new variations on our fan favorites.",
+    "menText4": "Check back often, because lots of our new arrivals are inspired by the natural world, like our awe-inspiring National Parks, the incredible outdoor activities that our customers love, or the",
+    "menText5": " natural color palettes around us. We also love to partner with designers, influencers, athletes, and philanthropists to envision new ways to look sharp while caring for the planet through",
+    "menText6": " sustainable materials & practices."
   }
 }

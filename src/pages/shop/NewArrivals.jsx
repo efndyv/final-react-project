@@ -1,11 +1,14 @@
+
 import React, { useState } from "react";
 import image from "../../assets/image/banner.avif";
 import ProductSection from "../../components/ProductsSection";
 import Faq from "../../components/Faq";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const NewArrivals = () => {
   const [filter, setFilter] = useState("all"); // 'all', 'men', or 'women'
+  const { t } = useTranslation();
 
   const handleFilterChange = (newFilter) => {
     setFilter(newFilter);
@@ -16,11 +19,13 @@ const NewArrivals = () => {
       <div className="banner">
         <img src={image} width={"100%"} alt="Banner" />
         <div className="bannerText">
-          <p>New Arrivals</p>
+          <p>{t("arrivals.header")}</p>
           <span>
-            The latest styles and limited edition colors <br />
-            that you can only find here (while they last,
-            <br /> that is.)
+            {t("arrivals.bannerLine1")}
+            <br />
+            {t("arrivals.bannerLine2")}
+            <br />
+            {t("arrivals.bannerLine3")}
           </span>
         </div>
       </div>
@@ -32,7 +37,7 @@ const NewArrivals = () => {
             color: filter === "men" ? "black" : "gray",
           }}
         >
-          Men's New Arrivals
+          {t("arrivals.filterMen")}
         </h4>
         <h4
           onClick={() => handleFilterChange("all")}
@@ -41,7 +46,7 @@ const NewArrivals = () => {
             color: filter === "all" ? "black" : "gray",
           }}
         >
-          All Arrivals
+          {t("arrivals.filterAll")}
         </h4>
         <h4
           onClick={() => handleFilterChange("women")}
@@ -50,33 +55,32 @@ const NewArrivals = () => {
             color: filter === "women" ? "black" : "gray",
           }}
         >
-          Women's New Arrivals
+          {t("arrivals.filterWomen")}
         </h4>
       </div>
       <div className="arrivalsCenter">
-        <h3>Shoes</h3>
+        <h3>{t("arrivals.shoesTitle")}</h3>
         <span>
-          Classic sneakers. Sporty running shoes. Comfy loafers. We got the
-          wear-all day <br />
-          (with everything) shoes you and your closet need.
+          {t("arrivals.shoesLine1")}
+          <br />
+          {t("arrivals.shoesLine2")}
         </span>
         <ProductSection filter={filter} />
-        <p>Men's New Arrivals</p>
+        <p>{t("arrivals.menTitle")}</p>
         <span className="topMen">
-          Welcome to our <Link to="/men">new arrivals for men</Link>—the
-          fresh-out-of-the-box, squeaky-new styles that we’re excited to share
-          with our fans. Allbirds is continually adding new styles, new <br />
-          colors, and new variations on our fan favorites.
+          {t("arrivals.menText1")}
+          <Link to="/men">{t("arrivals.menLink")}</Link>
+          {t("arrivals.menText2")}
+          <br />
+          {t("arrivals.menText3")}
         </span>
         <br />
         <span className="botMen">
-          Check back often, because lots of our new arrivals are inspired by the
-          natural world, like our awe-inspiring National Parks, the incredible
-          outdoor activities that our customers love, or the <br />
-          natural color palettes around us. We also love to partner with
-          designers, influencers, athletes, and philanthropists to envision new
-          ways to look sharp while caring for the planet through <br />
-          sustainable materials & practices.
+          {t("arrivals.menText4")}
+          <br />
+          {t("arrivals.menText5")}
+          <br />
+          {t("arrivals.menText6")}
         </span>
       </div>
       <Faq />
