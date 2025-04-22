@@ -1,26 +1,46 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useParams, Link } from "react-router-dom";
-import { productsData, shoesData } from "../../fakeDb/data";
+import { shoesData } from "../../fakeDb/data";
 import { FaStar } from "react-icons/fa";
 import { useCart } from "../../pages/shop/CartContext";
 import Swal from "sweetalert2";
+import axios from "axios";
 
-import image66 from "../../assets/image/cobalt.avif";
-import image77 from "../../assets/image/single.avif";
+// import image66 from "../../assets/image/cobalt.avif";
+// import image77 from "../../assets/image/single.avif";
 import Studio from "./Studio";
 import CareGuide from "./CareGuide";
 import CardCarousel from "../home/CardCarousel";
 import Approach from "../home/Approach";
 
-const detailText = [
-  { id: 150, link: "/arrivals", title: "Men's Tree Dasher 2", img: image66 },
-  { id: 151, link: "/arrivals", title: "Men's Runner Go", img: image77 },
-];
+// const detailText = [
+//   { id: 150, link: "/arrivals", title: "Men's Tree Dasher 2", img: image66 },
+//   { id: 151, link: "/arrivals", title: "Men's Runner Go", img: image77 },
+// ];
 
 const ProductPage = () => {
+  const [product, setProduct] = useState({});
+  // const [loading, setLoading] = useState(true);
   const { addToCart } = useCart();
   const { id } = useParams();
-  const product = productsData.find((item) => String(item.id) === id);
+  useEffect(() => {
+    const fetchProduct = async () => {
+      try {
+        const res = await axios.get(`http://localhost:5000/api/products/${id}`);
+        console.log(res.data);
+        setProduct(res.data);
+        // setMainImage(res.data.img);
+        // setLoading(false);
+      } catch (error) {
+        console.error("Ürün getirilemedi:", error);
+        // setLoading(false);
+      }
+    };
+
+    fetchProduct();
+  }, [id]);
+
+  // const product = productsData.find((item) => String(item.id) === id);
   if (!product) {
     return <div>Product not found.</div>;
   }

@@ -1,7 +1,5 @@
-
-
 import { createContext, useContext, useState, useEffect } from "react";
-import { productsData, shoesData } from "../../fakeDb/data";
+import {  shoesData } from "../../fakeDb/data";
 
 const CartContext = createContext();
 
@@ -17,7 +15,6 @@ export const CartProvider = ({ children }) => {
 
   const addToCart = (product, selectedSize, selectedVariant) => {
     const variantData = shoesData.find((item) => item.id === selectedVariant);
-    // Benzersiz id oluşturuluyor
     const uniqueId = `${product.id}-${selectedVariant}-${selectedSize}`;
 
     const existingItem = cartItems.find((item) => item.uniqueId === uniqueId);

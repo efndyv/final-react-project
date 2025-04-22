@@ -26,16 +26,13 @@ const ProductCard = ({ data }) => {
         >
           {data.sliderData.map((item) => (
             <SwiperSlide key={item.id}>
-              <Link to={item.link} key={item.id}>
-                <div className="myImageMg">
-                  <img src={item.img} className="image" />
-                </div>
-              </Link>
+              <div className="myImageMg">
+                <img src={item.img} className="image" />
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
-    
     </div>
   );
 };
