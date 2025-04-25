@@ -81,7 +81,7 @@ const Cart = () => {
     100
   );
 
-  // Format price according to selected language/currency
+
   const formatPrice = (price) => {
     const { currencySymbol, currency } = t("cart", { returnObjects: true });
 
@@ -188,7 +188,7 @@ const Cart = () => {
                             item.quantity
                         )}
                       </p>{" "}
-                      {/* Use formatted price */}
+                      
                     </div>
                     <IoMdClose
                       className="removeItemButton"

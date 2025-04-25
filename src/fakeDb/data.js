@@ -1,27 +1,4 @@
-// // Box Data
 
-// import image19 from "../assets/image/cardcarousel/Hanami_Night_Natural_White_1.avif";
-// import image20 from "../assets/image/cardcarousel/Lounger_Lift_Natural_White_Hanami_Night_Twilight_White.avif";
-// import image21 from "../assets/image/cardcarousel/MENS_TREE_RUNNER_NAVY_NIGHT_DARK_NAVY.avif";
-// import image22 from "../assets/image/cardcarousel/Trail_Runner_SWT_Blizzard_Hanami_Night_Blizzard.avif";
-// import image23 from "../assets/image/cardcarousel/8.avif";
-// import image24 from "../assets/image/cardcarousel/Tree_Dasher_2_Blizzard_Hanami_Night_Natural_White.avif";
-// import image25 from "../assets/image/cardcarousel/Tree_Lounger_Hanami_Night_Natural_White.avif";
-// import image26 from "../assets/image/cardcarousel/WOMENS_TREE_BREEZER_JET_BLACK_BLACK.avif";
-// import image27 from "../assets/image/cardcarousel/2.avif";
-// import image28 from "../assets/image/cardcarousel/1.avif";
-// import image29 from "../assets/image/cardcarousel/sear.avif";
-// import image30 from "../assets/image/cardcarousel/5.avif";
-
-// //Slider Data
-// import image40 from "../assets/image/slide/1.avif";
-// import image50 from "../assets/image/slide/2.avif";
-// import image55 from "../assets/image/slide/3.avif";
-// import image60 from "../assets/image/slide/4.avif";
-// import image65 from "../assets/image/slide/5.avif";
-// import image70 from "../assets/image/slide/6.avif";
-// import image75 from "../assets/image/slide/7.avif";
-// import image80 from "../assets/image/slide/8.avif";
 
 //Products
 import image90 from "../assets/image/detail/allbirds1.avif";

@@ -108,22 +108,7 @@ export default function FilteredSlider() {
             slidesPerGroup: 2,
           },
 
-          //                 480: {
-          //                   slidesPerView: 1.2,
-          //                   spaceBetween: 15,
-          //                 },
-          //                 640: {
-          //                   slidesPerView: 1.5,
-          //                   spaceBetween: 15,
-          //                 },
-          //                 768: {
-          //                   slidesPerView: 2,
-          //                   spaceBetween: 20,
-          //                 },
-          //                 1024: {
-          //                   slidesPerView: 2,
-          //                   spaceBetween: 25,
-          // }
+        
         }}
       >
         {filteredProducts.map((item) => (

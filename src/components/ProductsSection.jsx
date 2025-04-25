@@ -10,7 +10,7 @@ const ProductSection = ({ filter }) => {
     const fetchProducts = async () => {
       try {
         const res = await axios.get(`http://localhost:5000/api/products`);
-        console.log(res.data);
+   
         setProducts(res.data);
       } catch (error) {
         console.error("Ürün getirilemedi:", error);

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay} from "swiper/modules";
 
 import image3 from "../../assets/image/tricart/brown2.avif";
 import image4 from "../../assets/image/tricart/white.avif";
@@ -13,8 +13,7 @@ import { useTranslation } from "react-i18next";
 const TriPanel = () => {
   const { t } = useTranslation();
   const panelItems = t("tripanel", { returnObjects: true });
-  console.log(panelItems);
-  // console.log(panelItems[0].buttonTitle1);
+
   const triPanel = [
     {
       id: 14,
@@ -104,7 +103,7 @@ const TriPanel = () => {
     );
   }
 
-  // Keep your original desktop design exactly as is
+  
   return (
     <div className="panelItem">
       {triPanel.map((item) => (

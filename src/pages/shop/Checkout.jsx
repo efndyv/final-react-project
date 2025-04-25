@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Swal from "sweetalert2"; // SweetAlert2 import edildi
+import Swal from "sweetalert2";
 import image from "../../assets/image/svg/download.svg";
 import image3 from "../../assets/image/procecLogo.webp";
 import image4 from "../../assets/image/svg/Leobank_logo.png";
@@ -42,7 +42,6 @@ const Checkout = () => {
   const handleSubmit = () => {
     let newErrors = {};
 
-    // Tüm zorunlu alanları kontrol et
     const requiredFields = [
       "email",
       "firstName",
@@ -56,7 +55,6 @@ const Checkout = () => {
       "apartment",
     ];
 
-    // Ödeme yöntemine özel alanları ekle
     if (paymentMethod === "creditCard") {
       requiredFields.push("cardNumber", "cardHolder", "expiry", "cvc");
     } else if (paymentMethod === "paypal") {
@@ -65,14 +63,12 @@ const Checkout = () => {
       requiredFields.push("afterpayPhone");
     }
 
-    // Tüm zorunlu alanları doğrula
     requiredFields.forEach((key) => {
       if (!formData[key] || !formData[key].trim()) {
         newErrors[key] = `${key} is required`;
       }
     });
 
-    // Kart numarası formatını kontrol et (sadece creditCard seçiliyse)
     if (paymentMethod === "creditCard" && formData.cardNumber) {
       const cardNumberWithoutDashes = formData.cardNumber.replace(/-/g, "");
       if (cardNumberWithoutDashes.length !== 16) {
@@ -80,21 +76,18 @@ const Checkout = () => {
       }
     }
 
-    // CVC kontrolü (sadece creditCard seçiliyse)
     if (paymentMethod === "creditCard" && formData.cvc) {
       if (formData.cvc.length !== 3) {
         newErrors.cvc = "CVC must be 3 digits";
       }
     }
 
-    // E-posta formatını kontrol et
     if (formData.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       newErrors.email = "Please enter a valid email";
     }
 
     setErrors(newErrors);
 
-    // Hata yoksa başarı mesajını göster
     if (Object.keys(newErrors).length === 0) {
       Swal.fire({
         title: "Payment Successful!",
@@ -104,7 +97,6 @@ const Checkout = () => {
         draggable: true,
       });
     } else {
-      // Hataları kullanıcıya göstermek için SweetAlert
       Swal.fire({
         title: "Validation Error",
         text: "Please fill in all required fields correctly",
@@ -260,14 +252,12 @@ const Checkout = () => {
 
                   setFormData({ ...formData, city: value });
 
-                  // Hata varsa ve kullanıcı inputa değer giriyorsa hatayı kaldır
                   if (errors.city) {
                     setErrors({ ...errors, city: "" });
                   }
                 }}
                 style={{ borderColor: errors.city ? "red" : "#ccc" }}
               />
-            
 
               <input
                 type="text"
@@ -285,7 +275,6 @@ const Checkout = () => {
                 }}
                 style={{ borderColor: errors.zip ? "red" : "#ccc" }}
               />
-             
 
               <select
                 id="state"
@@ -303,7 +292,6 @@ const Checkout = () => {
                 <option value="CA">California</option>
                 <option value="NY">New York</option>
               </select>
-              
             </div>
           </form>
         </section>
@@ -375,14 +363,13 @@ const Checkout = () => {
                   <input
                     type="text"
                     id="cardNumber"
-                    maxLength={19} // 16 rakam + 3 "-"
+                    maxLength={19}
                     placeholder="XXXX-XXXX-XXXX-XXXX"
                     value={formData.cardNumber}
                     onChange={(e) => {
-                      let value = e.target.value.replace(/\D/g, ""); // Sadece rakamları al
-                      value = value.slice(0, 16); // 16 rakamı geçmesin
+                      let value = e.target.value.replace(/\D/g, "");
+                      value = value.slice(0, 16);
 
-                      // 4'er gruplara ayırıp "-" ekle
                       let formattedValue =
                         value.match(/.{1,4}/g)?.join("-") || "";
 
@@ -433,10 +420,9 @@ const Checkout = () => {
                       maxLength={5}
                       value={formData.expiry}
                       onChange={(e) => {
-                        let value = e.target.value.replace(/\D/g, ""); // Sadece rakamları al
-                        value = value.slice(0, 4); // Maksimum 4 rakam
+                        let value = e.target.value.replace(/\D/g, "");
+                        value = value.slice(0, 4);
 
-                        // 2 rakamdan sonra "/" ekleyelim
                         if (value.length > 2) {
                           value = value.slice(0, 2) + "/" + value.slice(2);
                         }
@@ -515,17 +501,14 @@ const Checkout = () => {
                   placeholder="+994 (XX) XXX-XX-XX"
                   value={formData.afterpayPhone}
                   onChange={(e) => {
-                    let value = e.target.value.replace(/\D/g, ""); // Sadece rakamları al
+                    let value = e.target.value.replace(/\D/g, "");
 
-                    // +994 () zorunlu olacak
                     if (!value.startsWith("994")) {
                       value = "994";
                     }
 
-                    // 994 sonrası numara al (toplam 9 rakam olacak)
                     value = value.slice(0, 12);
 
-                    // Formatlama: +994 (XX) XXX-XX-XX
                     let formattedValue = `+994 (${value.slice(
                       3,
                       5
@@ -551,9 +534,9 @@ const Checkout = () => {
             )}
 
             <button
-              type="button" // type="submit" yerine type="button" istifadə edin
+              type="button"
               className="pay-now-btn"
-              onClick={handleSubmit} // handleSubmit funksiyasını burada çağırın
+              onClick={handleSubmit}
             >
               Pay Now
             </button>

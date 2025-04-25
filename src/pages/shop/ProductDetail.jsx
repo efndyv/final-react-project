@@ -6,46 +6,32 @@ import { useCart } from "../../pages/shop/CartContext";
 import Swal from "sweetalert2";
 import axios from "axios";
 
-// import image66 from "../../assets/image/cobalt.avif";
-// import image77 from "../../assets/image/single.avif";
 import Studio from "./Studio";
 import CareGuide from "./CareGuide";
 import CardCarousel from "../home/CardCarousel";
 import Approach from "../home/Approach";
 
-// const detailText = [
-//   { id: 150, link: "/arrivals", title: "Men's Tree Dasher 2", img: image66 },
-//   { id: 151, link: "/arrivals", title: "Men's Runner Go", img: image77 },
-// ];
-
 const ProductPage = () => {
   const [product, setProduct] = useState({});
-  // const [loading, setLoading] = useState(true);
+
   const { addToCart } = useCart();
   const { id } = useParams();
   useEffect(() => {
     const fetchProduct = async () => {
       try {
         const res = await axios.get(`http://localhost:5000/api/products/${id}`);
-        console.log(res.data);
+
         setProduct(res.data);
-        // setMainImage(res.data.img);
-        // setLoading(false);
-      } catch (error) {
-        console.error("Ürün getirilemedi:", error);
-        // setLoading(false);
-      }
+      } catch (error) {}
     };
 
     fetchProduct();
   }, [id]);
 
-  // const product = productsData.find((item) => String(item.id) === id);
   if (!product) {
     return <div>Product not found.</div>;
   }
 
-  // Available sizes
   const sizes = [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13.5, 13, 14];
 
   const handleAddToCart = () => {
@@ -132,7 +118,6 @@ const ProductPage = () => {
   return (
     <>
       <div className="container">
-        {/* Mobile Thumbnail Slider */}
         <div className="mobile-thumbnail-slider">
           <div className="slider-container" ref={sliderRef}>
             {selectedImages?.images.map((imgSrc, index) => (
@@ -165,10 +150,8 @@ const ProductPage = () => {
           </button>
         </div>
 
-        {/* Product Section */}
         <main className="product-container">
           <div className="image-section">
-            {/* Desktop Breadcrumbs */}
             <div className="desktop-breadcrumbs">
               {selectedImages?.images.map((imgSrc, index) => (
                 <img

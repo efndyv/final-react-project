@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const NewArrivals = () => {
-  const [filter, setFilter] = useState("all"); // 'all', 'men', or 'women'
+  const [filter, setFilter] = useState("all"); 
   const { t } = useTranslation();
 
   const handleFilterChange = (newFilter) => {

@@ -60,7 +60,7 @@ export const CartProvider = ({ children }) => {
           if (item.quantity - 1 > 0) {
             acc.push({ ...item, quantity: item.quantity - 1 });
           }
-          // Miktar 0'a eşit oluyorsa ürünü eklemiyoruz (yani siliniyor)
+          
         } else {
           acc.push(item);
         }
