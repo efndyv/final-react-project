@@ -197,7 +197,8 @@
     "note": "Opmerking: je kunt je op elk moment afmelden. Bekijk ons",
     "privacyPolicy": "Privacybeleid",
     "and": "en",
-    "terms": "Voorwaarden"
+    "terms": "Voorwaarden",
+    "validationError": "이메일 주소를 입력해주세요."
   },
   "approach": {
     "title": "De Allbirds Benadering",
@@ -296,5 +297,27 @@
     "menText4": "Kom regelmatig terug, want veel van onze nieuwe artikelen zijn geïnspireerd op de natuur, zoals nationale parken, buitenactiviteiten waar onze klanten van houden of",
     "menText5": " natuurlijke kleurpaletten om ons heen. We werken ook graag samen met ontwerpers, influencers, atleten en filantropen om nieuwe manieren te bedenken om er goed uit te zien en tegelijkertijd",
     "menText6": " zorg te dragen voor de planeet met duurzame materialen en praktijken."
+  },
+  "chatbox": {
+    "title": "Klantenservice",
+    "backButton": "← Terug naar alle vragen",
+    "options": {
+      "1": "Misschien staat je antwoord hier...",
+      "2": "Hoe kan ik iets retourneren of ruilen?",
+      "3": "Hoe vallen de Allbirds?",
+      "4": "Hoe verzenden jullie?",
+      "5": "Wanneer komt het weer op voorraad?",
+      "6": "Privacybeleid informatie",
+      "7": "Sorry, we zijn op dit moment uitverkocht!"
+    },
+    "responses": {
+      "1": "Hier zijn enkele veelgestelde vragen die je kunnen helpen...",
+      "2": "Je kunt binnen 30 dagen retourneren met het originele bonnetje. Bezoek gewoon onze retourpagina en volg de instructies.",
+      "3": "Allbirds vallen meestal op maat. We raden aan je gebruikelijke maat te bestellen. Als je tussen twee maten in zit, bestel dan een maat groter voor Tree-stijlen of een maat kleiner voor Wool-stijlen.",
+      "4": "We verzenden wereldwijd via DHL en FedEx. De levering duurt 3-5 werkdagen binnen Nederland en 7-10 dagen internationaal. Gratis verzending bij bestellingen boven de $50.",
+      "5": "We vullen populaire artikelen elke 2 weken opnieuw aan. Meld je aan voor voorraadmeldingen op de productpagina!",
+      "6": "We respecteren je privacy. Ons beleid zorgt ervoor dat je gegevens beschermd zijn en nooit zonder toestemming met derden worden gedeeld.",
+      "7": "Sorry! Dit artikel is momenteel niet op voorraad. Kom volgende week terug of meld je aan voor voorraadmeldingen."
+    }
   }
 }

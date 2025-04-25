@@ -196,7 +196,8 @@
     "note": "Note: You can opt-out at any time. See our",
     "privacyPolicy": "Privacy Policy",
     "and": "and",
-    "terms": "Terms"
+    "terms": "Terms",
+    "validationError": "Please enter your email address."
   },
   "approach": {
     "title": "The Allbirds Approach",
@@ -295,5 +296,27 @@
     "menText4": "Check back often, because lots of our new arrivals are inspired by the natural world, like our awe-inspiring National Parks, the incredible outdoor activities that our customers love, or the",
     "menText5": " natural color palettes around us. We also love to partner with designers, influencers, athletes, and philanthropists to envision new ways to look sharp while caring for the planet through",
     "menText6": " sustainable materials & practices."
+  },
+  "chatbox": {
+    "title": "Customer Support",
+    "backButton": "← Back to all questions",
+    "options": {
+      "1": "Maybe your answer's in here...",
+      "2": "How do I make a return or exchange?",
+      "3": "How do Allbirds fit?",
+      "4": "How do you ship?",
+      "5": "When will you restock?",
+      "6": "Privacy policy information",
+      "7": "Apologies, we're out right now!"
+    },
+    "responses": {
+      "1": "Here are some common questions that might help you...",
+      "2": "You can make returns within 30 days with original receipt. Just visit our returns page and follow the instructions.",
+      "3": "Allbirds typically run true to size. We recommend ordering your usual size. If you're between sizes, size up for Tree styles or size down for Wool styles.",
+      "4": "We ship worldwide via DHL and FedEx. Delivery takes 3-5 business days domestically and 7-10 days internationally. Free shipping on orders over $50.",
+      "5": "We restock popular items every 2 weeks. Sign up for stock notifications on the product page!",
+      "6": "We respect your privacy. Our policy ensures your data is protected and never shared with third parties without consent.",
+      "7": "We're sorry! This item is currently out of stock. Check back next week or sign up for restock notifications."
+    }
   }
 }
