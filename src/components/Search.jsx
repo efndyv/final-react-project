@@ -1,17 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-
+import axios from "axios";
 
 const Search = () => {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredProducts, setFilteredProducts] = useState([]);
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const res = await axios.get(`http://localhost:5000/api/products`);
+
+        setProducts(res.data);
+      } catch (error) {
+        console.error("Ürün getirilemedi:", error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
 
   const handleSearch = (e) => {
     const input = e.target.value;
     setSearchTerm(input);
-
     if (input === "") {
       setFilteredProducts([]);
       return;
@@ -23,14 +37,11 @@ const Search = () => {
       return string.replace(/[.*+?^=!:${}()|\[\]\/\\]/g, "\\$&");
     };
 
-    const results = productsData.filter((product) => {
-
-      const productTitle = t(`products.${product.id}.title`).toLowerCase();
+    const results = products.filter((product) => {
       const escapedInput = escapeRegex(normalizedInput);
-      const regex = new RegExp(`\\b${escapedInput}\\b`, "i");
-      return regex.test(productTitle);
+      const regex = new RegExp(escapedInput, "i");
+      return regex.test(product.title);
     });
-
     setFilteredProducts(results);
   };
 
@@ -56,8 +67,8 @@ const Search = () => {
               key={product.id}
               className="search-item"
             >
-              <h3>{t(`products.${product.id}.title`)}</h3>
-              <p>{product.price}</p>
+              <h3>{product.title}</h3>
+              <p>${product.price}</p>
               <img src={product.img} alt={product.title} />
             </Link>
           ))
